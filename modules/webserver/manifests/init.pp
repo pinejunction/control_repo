@@ -9,6 +9,6 @@ class webserver {
                 ensure => present,
                }
                                   }
-else { print "This is not a supported distro."}
+else { prinxt "This is not a supported distro."}
                     }
      
