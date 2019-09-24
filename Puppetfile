@@ -1,6 +1,6 @@
 node default {
                 file {'/root/README':
-                    ensure => present,
+                    ensure => file,
                       }
               }
 mod 'puppet/nginx'
